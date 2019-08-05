@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-from hardware.calc_hardware import addition , subtract , multiply , div
 import unittest
+import os
+from hardware.calc_hardware import hardware_addition , hardware_subtract , hardware_multiply , hardware_division
 
 class TestCalcHardware(unittest.TestCase):
 
@@ -11,7 +12,9 @@ class TestCalcHardware(unittest.TestCase):
 
     @classmethod
     def tearDownClass(self):
-        pass
+        os.chdir('..')
+        os.system("find . -name '*.pyc' -delete")
+        os.system("find . -name '__pycache__' -delete")
 
     def setUp(self):
         pass
@@ -19,17 +22,17 @@ class TestCalcHardware(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_addition_calc_hardware(self):
-        self.assertEqual(addition(2,3),5)
+    def test_hardware_addition(self):
+        self.assertEqual(hardware_addition(2,3),5)
 
-    def test_subtract_calc_hardware(self):
-        self.assertEqual(subtract(5,3),2)
+    def test_hardware_subtract(self):
+        self.assertEqual(hardware_subtract(5,3),2)
 
-    def test_multiply_calc_hardware(self):
-        self.assertEqual(multiply(2,3),6)
+    def test_hardware_multiply(self):
+        self.assertEqual(hardware_multiply(2,3),6)
 
-    def test_division_calc_hardware(self):
-        self.assertEqual(div(10,5),2)
+    def test_hardware_division(self):
+        self.assertEqual(hardware_division(10,5),2)
 
 
 if __name__ == '__main__':
