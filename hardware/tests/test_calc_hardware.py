@@ -2,6 +2,6 @@
 
 # import config
 # import calc # no need in the discover command
-from hardware.calc_hardware import add , div,multiply,subtract
+from hardware.calc_hardware import addition , div,multiply,subtract
 
-print(add(2,3))
+print(addition(2,3))

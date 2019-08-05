@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
+from software.calc_software import addition , div,multiply,subtract
 
-# import config
-# import calc # no need in the discover command
-from software.calc_software import add , div,multiply,subtract
-
-print(add(2,3))
+print(addition(2,3))
