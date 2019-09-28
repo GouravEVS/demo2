@@ -2,8 +2,8 @@
 import unittest
 import os
 
-from software.calc_software import software_addition , software_subtract , software_multiply , software_division
-from hardware.calc_hardware import hardware_addition , hardware_subtract , hardware_multiply , hardware_division
+from calculator.software.calc_software import software_addition , software_subtract , software_multiply , software_division
+from calculator.hardware.calc_hardware import hardware_addition , hardware_subtract , hardware_multiply , hardware_division
 
 class TestCalculatorTravis(unittest.TestCase):
 
