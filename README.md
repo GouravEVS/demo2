@@ -1,10 +1,17 @@
 # calculator-travis
 
-project to use travis and its functionality on github repository
+Travis-ci usage on github repository for ![Continous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 
 ---
-code for running test locally :
+
+[![Build Status](https://travis-ci.org/babygame0ver/calculator-travis.svg?branch=master)](https://travis-ci.org/babygame0ver/calculator-travis)
+
+---
+
+## Usage
 
 ```
+git clone https://github.com/babygame0ver/calculator-travis.git
+cd calculator-travis
 python3 -m unittest discover
 ```
