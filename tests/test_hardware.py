@@ -2,7 +2,7 @@
 
 import unittest
 import os
-from hardware.calc_hardware import hardware_addition , hardware_subtract , hardware_multiply , hardware_division
+from calculator.hardware.calc_hardware import hardware_addition , hardware_subtract , hardware_multiply , hardware_division
 
 class TestCalcHardware(unittest.TestCase):
 

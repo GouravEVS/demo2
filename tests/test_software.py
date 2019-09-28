@@ -2,7 +2,7 @@
 
 import unittest
 import os
-from software.calc_software import software_addition , software_subtract , software_multiply , software_division
+from calculator.software.calc_software import software_addition , software_subtract , software_multiply , software_division
 
 class TestCalcSoftware(unittest.TestCase):
 
