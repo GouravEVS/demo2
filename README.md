@@ -1,6 +1,6 @@
 # calculator-travis
 
-Travis-ci usage on github repository for ![Continous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
+Travis-ci usage on github repository for [Continous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 
 ---
 
