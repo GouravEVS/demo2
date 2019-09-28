@@ -6,5 +6,4 @@ python:
   - "3.7"
 
 script:
-  cd calculator
   python3 -m unittest discover
