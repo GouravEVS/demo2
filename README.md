@@ -4,7 +4,8 @@ Travis-ci usage on github repository for [Continous Integration](https://en.wiki
 
 ---
 
-[![Build Status](https://travis-ci.org/babygame0ver/calculator-travis.svg?branch=setup)](https://travis-ci.org/babygame0ver/calculator-travis)
+[![Build Status](https://travis-ci.org/babygame0ver/calculator-travis.svg?branch=master)](https://travis-ci.org/babygame0ver/calculator-travis)
+
 
 ---
 
