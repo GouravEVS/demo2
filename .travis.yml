@@ -8,4 +8,4 @@ python:
 script:
   python3 -m unittest discover;
   python3 setup.py install;
-  python3 calculator/calc.py
+  python3 calculator/calc_final.py
