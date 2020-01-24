@@ -13,9 +13,7 @@ class TestCalculatorTravis(unittest.TestCase):
 
     @classmethod
     def tearDownClass(self):
-        os.chdir('..')
-        os.system("find . -name '*.pyc' -delete")
-        os.system("find . -name '__pycache__' -delete")
+        pass
 
     def setUp(self):
         pass
